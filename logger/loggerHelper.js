@@ -19,7 +19,7 @@ loggerHelper.debug = (message) => {
   getValue(LOGGER_KEY).debug(message);
 }
 
-loggerHelperverbose = (message) => {
+loggerHelper.verbose = (message) => {
  getValue(LOGGER_KEY).verbose(message);
 }
 
